@@ -5,7 +5,7 @@ long long fac[MAX],finv[MAX],inv[MAX];
 template<class T>
 T com(){
 	fac[0]=fac[1]=1;
-	finv[0]=finv[0]=1;
+	finv[0]=finv[1]=1;
 	inv[1]=1;
 	for(int i=2;i<MAX;i++){
 		fac[i]=fac[i-1]*i%MOD;
