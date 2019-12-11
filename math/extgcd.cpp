@@ -11,3 +11,6 @@ T extgcd(T a,T b,T &x,T &y){
 	}
 	return d;
 }
+
+//usual gcd
+ll gcd(ll x,ll y){return y?gcd(y,x%y):x;}
