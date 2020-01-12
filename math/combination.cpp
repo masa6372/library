@@ -1,4 +1,4 @@
-//MAX,MODは問題ごとに変わる
+
 long long fac[MAX],finv[MAX],inv[MAX];
 
 //テーブルを作る前処理
