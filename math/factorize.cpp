@@ -2,7 +2,7 @@
 //vector<pair<ll,int>> factorize(ll n)
 
 template<class T>
-T factorize(T n,){
+T factorize(T n){
 	vector<pair<ll,int>>res;
 	for(long long i=2;i*i<=n;i++){
 		if(n%i)continue;
