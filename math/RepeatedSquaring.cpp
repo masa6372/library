@@ -1,4 +1,4 @@
-*/繰り返し２乗法/*
+/*繰り返し２乗法*/
 ll func(ll n,ll m,ll p){
         if(p==0)return 1;
         if(p%2==0){
