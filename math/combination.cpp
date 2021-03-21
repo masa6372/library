@@ -1,4 +1,5 @@
-
+const long long MAX = 200000;
+const long long MOD = 1000000007
 long long fac[MAX],finv[MAX],inv[MAX];
 
 //テーブルを作る前処理
@@ -16,7 +17,7 @@ T com(){
 
 //二項計算 nCk
 template<class T>
-T com(int n,int k){
+T com(T n, T k){
 	if(n<k)return 0;
 	if(n<0||k<0)return 0;
 	return fac[n]*(finv[k]*finv[n-k]%MOD)%MOD;
