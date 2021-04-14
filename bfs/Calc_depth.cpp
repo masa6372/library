@@ -1,3 +1,4 @@
+//あらかじめdepthに無限に大きな値を入れておく
 void Calc_depth(vector<vector<int>>&edge, vector<int>&depth, int stnode) {
     depth[stnode] = 0;
     queue<int> Q;
