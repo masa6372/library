@@ -4,7 +4,7 @@ ll dist[114514];  //dist:重み
 vector<pair<int, ll>> G[114514];  //G:グラフ
 
 void dijkstra(int stt) {
-    priority_queue<pair<ll, int>, vector<pair<ll, int>>, greater<pair<ll, int>>> Q; //降順
+    priority_queue<pair<ll, int>, vector<pair<ll, int>>, greater<pair<ll, int>>> Q; //昇順(最も重みの小さい頂点を探す)
     rep(i, v) dist[i] = 1145141919;
     dist[stt] = 0;
     Q.push(make_pair(0, stt));
